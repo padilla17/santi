@@ -1,0 +1,118 @@
+header{
+   display: flex;
+   align-items: center;
+   height: 60px;
+   padding: 20PX;
+   position: fixed;
+   width: 100%;
+   left: 0;
+   top: 0px;
+   background-color: white;
+   
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 8px 12px;
+    width: max-content;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 25px;
+    margin-right: 20PX;
+}
+
+input{
+    width: 800px;
+    height: 39px;
+    margin: 11px 44px 10px 11px;
+    border-radius: 50px;
+    background-color:rgb(233, 233, 233);
+    padding: 20px;
+}
+
+nav :hover {
+    background: black;
+    color: white;
+    
+}
+nav:hover a .boto1 {
+    color: white;
+}
+nav:hover a .boto2 {
+    color: white;
+}
+nav:hover a .boto3 {
+    color: white;
+} 
+nav:hover a .boto4 {
+    color: white;
+} 
+nav:hover a .boto5 {
+    color: white;
+}   
+nav{
+    display: block;
+    transition: all 0.8s linear;
+  
+    
+    
+
+ }
+   
+
+
+img{
+    width: 100%;
+    border-radius: 20px;
+   
+    
+    
+}
+.flex{
+    display: flex;
+    padding: 10px;
+    
+}
+.column{
+    flex: 25%;
+    padding: 10px;
+    
+    
+}
+.column img{
+    margin-top: 20px;
+    
+    
+    
+    
+    
+
+}
+.column img:hover{
+    opacity: 1;
+    
+    
+}
+figcaption{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+@media (min-width: 0px) and (max-width: 755px){ 
+    .column{
+        width: 504px;
+    }
+    header {
+      width: 504px;
+}
+
+}
